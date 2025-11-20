@@ -32,7 +32,7 @@
     }:
     {
       robotnixConfigurations."A05s" = robotnix.lib.robotnixSystem (
-        { pkgs, ... }:
+        { ... }:
         {
           device = "a05s";
           flavor = "lineageos";
