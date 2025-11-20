@@ -1,5 +1,9 @@
 {
   description = "Builder for samsung a05s";
+  nixConfig.extra-substituters = [ "https://robotnix.cachix.org" ];
+  nixConfig.extra-trusted-public-keys = [
+    "robotnix.cachix.org-1:+y88eX6KTvkJyernp1knbpttlaLTboVp4vq/b24BIv0="
+  ];
 
   inputs = {
     robotnix.url = "github:nix-community/robotnix";
@@ -19,6 +23,10 @@
       url = "github:galaxy-a05s/android_vendor_samsung_bengal_f";
       flake = false;
     };
+    hosts = {
+      url = "github:StevenBlack/hosts";
+      flake = false;
+    };
   };
 
   outputs =
@@ -29,9 +37,13 @@
       vendor_a05s,
       kernel_bengal,
       lineage_bengal_common,
+      hosts,
     }:
+    let
+      host = hosts;
+    in
     {
-      robotnixConfigurations."A05s" = robotnix.lib.robotnixSystem (
+      robotnixConfigurations."a05s" = robotnix.lib.robotnixSystem (
         { ... }:
         {
           device = "a05s";
@@ -44,14 +56,28 @@
             "device/samsung/bengal-common".src = lineage_bengal_common;
             "kernel/samsung/bengal".src = kernel_bengal;
           };
-          apps.fdroid.enable = true;
+          apps = {
+            bromite.enable = false;
+            chromium.enable = false;
+            updater.enable = false;
+            seedvault.enable = true;
+            vanadium.enable = true;
+            fdroid.enable = true;
+          };
+
+          webview = {
+            chromium.enable = false;
+            chromium.availableByDefault = false;
+            vanadium.enable = true;
+            vanadium.availableByDefault = true;
+          };
+
           microg.enable = true;
-          ccache.enable = true;
+
+          hosts = host + "/hosts";
         }
       );
 
-      # This provides a convenient output which allows you to build the image by
-      # simply running "nix build" on this flake.
-      packages.x86_64-linux.default = self.robotnixConfigurations."A05s".img;
+      packages.x86_64-linux.default = self.robotnixConfigurations."a05s".img;
     };
 }
