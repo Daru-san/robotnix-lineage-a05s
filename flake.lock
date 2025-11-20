@@ -1,0 +1,222 @@
+{
+  "nodes": {
+    "androidPkgs": {
+      "inputs": {
+        "devshell": "devshell",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1750710155,
+        "narHash": "sha256-2lBEwXgclOrSsrhubSfifU91+sXqikC8qbiZ6yFeaEY=",
+        "owner": "tadfisher",
+        "repo": "android-nixpkgs",
+        "rev": "0846fab1f060f646e1017053077ad38dedc5207b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tadfisher",
+        "ref": "stable",
+        "repo": "android-nixpkgs",
+        "type": "github"
+      }
+    },
+    "device_a05s": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742051194,
+        "narHash": "sha256-vXn2H9DhC8zoWuon3hI+B8Ahg6Ao6QC2JBFnOgZgvk0=",
+        "owner": "galaxy-a05s",
+        "repo": "lineage_device_samsung_a05s",
+        "rev": "b258f97eaa8d9f88b7cbc0cfb7f547b9e480f2e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "galaxy-a05s",
+        "repo": "lineage_device_samsung_a05s",
+        "type": "github"
+      }
+    },
+    "devshell": {
+      "inputs": {
+        "nixpkgs": [
+          "robotnix",
+          "androidPkgs",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1741473158,
+        "narHash": "sha256-kWNaq6wQUbUMlPgw8Y+9/9wP0F8SHkjy24/mN3UAppg=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "7c9e793ebe66bcba8292989a68c0419b737a22a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "flake-compat": {
+      "locked": {
+        "lastModified": 1746162366,
+        "narHash": "sha256-5SSSZ/oQkwfcAz/o/6TlejlVGqeK08wyREBQ5qFFPhM=",
+        "owner": "nix-community",
+        "repo": "flake-compat",
+        "rev": "0f158086a2ecdbb138cd0429410e44994f1b7e4b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "kernel_bengal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1721371214,
+        "narHash": "sha256-TMXzWFXFPVWx7j7vYHMeRvlKURxPGKCBiX5eJyxBupU=",
+        "owner": "cd-Crypton",
+        "repo": "android_kernel_samsung_bengal-5.15",
+        "rev": "84bb912e0c40bcc8050a0176c60308a4c89dd51a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cd-Crypton",
+        "repo": "android_kernel_samsung_bengal-5.15",
+        "type": "github"
+      }
+    },
+    "lineage_bengal_common": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742117808,
+        "narHash": "sha256-E6manPKdZN/zisXjvjeVsT0IbDVv0sdxdL9TSF5bL5Q=",
+        "owner": "galaxy-a05s",
+        "repo": "lineage_device_samsung_bengal-common",
+        "rev": "80a87a864da6c4d2d919bbb3400643d51bd78bd5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "galaxy-a05s",
+        "repo": "lineage_device_samsung_bengal-common",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1750506804,
+        "narHash": "sha256-VLFNc4egNjovYVxDGyBYTrvVCgDYgENp5bVi9fPTDYc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4206c4cb56751df534751b058295ea61357bbbaa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1750622754,
+        "narHash": "sha256-kMhs+YzV4vPGfuTpD3mwzibWUE6jotw5Al2wczI0Pv8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c7ab75210cb8cb16ddd8f290755d9558edde7ee1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-25.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "robotnix": {
+      "inputs": {
+        "androidPkgs": "androidPkgs",
+        "flake-compat": "flake-compat",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1763170892,
+        "narHash": "sha256-Y4iY5buKRakptbI2kZXHxRFw18EmXaIuzs9N8a8YlE8=",
+        "owner": "nix-community",
+        "repo": "robotnix",
+        "rev": "d8979cdf788cd21488f2d944dd6708bbbaf922ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "robotnix",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "device_a05s": "device_a05s",
+        "kernel_bengal": "kernel_bengal",
+        "lineage_bengal_common": "lineage_bengal_common",
+        "robotnix": "robotnix",
+        "vendor_a05s": "vendor_a05s"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "vendor_a05s": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1739786564,
+        "narHash": "sha256-BimA9/bYcSIWxu3bTe9rS+tjXmFOvi0l8wmSXcUqkcE=",
+        "owner": "galaxy-a05s",
+        "repo": "android_vendor_samsung_bengal_f",
+        "rev": "84a0df45a234684e8d7ce258b5c140f88fa50228",
+        "type": "github"
+      },
+      "original": {
+        "owner": "galaxy-a05s",
+        "repo": "android_vendor_samsung_bengal_f",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
