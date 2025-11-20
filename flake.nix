@@ -61,14 +61,14 @@
             chromium.enable = false;
             updater.enable = false;
             seedvault.enable = true;
-            vanadium.enable = true;
+            vanadium.enable = false;
             fdroid.enable = true;
           };
 
           webview = {
             chromium.enable = false;
             chromium.availableByDefault = false;
-            vanadium.enable = true;
+            vanadium.enable = false;
             vanadium.availableByDefault = true;
           };
 
