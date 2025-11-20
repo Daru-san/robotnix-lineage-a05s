@@ -45,6 +45,8 @@
             "kernel/samsung/bengal".src = kernel_bengal;
           };
           apps.fdroid.enable = true;
+          microg.enable = true;
+          ccache.enable = true;
         }
       );
 
