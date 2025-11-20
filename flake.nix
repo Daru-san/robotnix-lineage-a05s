@@ -37,6 +37,7 @@
           device = "a05s";
           flavor = "lineageos";
           androidVersion = 15;
+          flavorVersion = "22.2";
           source.dirs = {
             "device/samsung/a05s".src = device_a05s;
             "vendor/samsung/bengal".src = vendor_a05s;
