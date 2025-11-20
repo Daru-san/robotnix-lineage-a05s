@@ -92,6 +92,22 @@
         "type": "github"
       }
     },
+    "hosts": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1763488188,
+        "narHash": "sha256-sJ6JT8GSmUUUAi8Ylhp6vE6OKmQxNfHye0FiJbZwoo4=",
+        "owner": "StevenBlack",
+        "repo": "hosts",
+        "rev": "c66c4aa05a95669943eb3b8f68ba3d359825c4b9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "StevenBlack",
+        "repo": "hosts",
+        "type": "github"
+      }
+    },
     "kernel_bengal": {
       "flake": false,
       "locked": {
@@ -179,6 +195,7 @@
     "root": {
       "inputs": {
         "device_a05s": "device_a05s",
+        "hosts": "hosts",
         "kernel_bengal": "kernel_bengal",
         "lineage_bengal_common": "lineage_bengal_common",
         "robotnix": "robotnix",
