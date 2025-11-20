@@ -44,6 +44,7 @@
             "device/samsung/bengal-common".src = lineage_bengal_common;
             "kernel/samsung/bengal".src = kernel_bengal;
           };
+          apps.fdroid.enable = true;
         }
       );
 
