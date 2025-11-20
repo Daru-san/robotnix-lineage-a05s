@@ -1,5 +1,5 @@
 {
-  description = "Builder for samsung a05s";
+  description = "Builder for LineageOS samsung a05s";
   nixConfig.extra-substituters = [ "https://robotnix.cachix.org" ];
   nixConfig.extra-trusted-public-keys = [
     "robotnix.cachix.org-1:+y88eX6KTvkJyernp1knbpttlaLTboVp4vq/b24BIv0="
