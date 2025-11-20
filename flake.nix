@@ -7,12 +7,16 @@
       url = "github:galaxy-a05s/lineage_device_samsung_a05s";
       flake = false;
     };
-    bengal_common = {
-      url = "github:galaxy-a05s/android_device_samsung_bengal-common";
+    lineage_bengal_common = {
+      url = "github:galaxy-a05s/lineage_device_samsung_bengal-common";
       flake = false;
     };
-    kernel_a05s = {
-      url = "github:cdpkp/android_kernel_tree_common_a05s";
+    kernel_bengal = {
+      url = "github:https://github.com/cd-Crypton/android_kernel_samsung_bengal-5.15";
+      flake = false;
+    };
+    vendor_a05s = {
+      url = "github:galaxy-a05s/android_vendor_samsung_bengal_f";
       flake = false;
     };
   };
@@ -22,20 +26,22 @@
       self,
       robotnix,
       device_a05s,
-      bengal_common,
-      kernel_a05s,
+      vendor_a05s,
+      kernel_bengal,
+      lineage_bengal_common,
     }:
     {
       robotnixConfigurations."A05s" = robotnix.lib.robotnixSystem (
         { pkgs, ... }:
         {
-          device = "A05s";
+          device = "a05s";
           flavor = "lineageos";
           androidVersion = 15;
           source.dirs = {
             "device/samsung/a05s".src = device_a05s;
-            "device/samsung/bengal-common".src = bengal_common;
-            "kernel/samsung/a05s".src = kernel_a05s;
+            "vendor/samsung/bengal".src = vendor_a05s;
+            "device/samsung/bengal-common".src = lineage_bengal_common;
+            "kernel/samsung/bengal".src = kernel_bengal;
           };
         }
       );
