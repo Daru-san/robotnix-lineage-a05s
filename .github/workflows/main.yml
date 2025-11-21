@@ -1,0 +1,18 @@
+name: build
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - uses: nixbuild/nix-quick-install-action@v34
+      - name: build
+        uses: nixbuild/nixbuild-action@v24
+        with:
+          nixbuild_token: ${{ secrets.nixbuild_token }}
+          generate_summary_for: "job"
+      - run: nix build .
