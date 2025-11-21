@@ -12,7 +12,7 @@
       flake = false;
     };
     lineage_bengal_common = {
-      url = "github:galaxy-a05s/lineage_device_samsung_bengal-common";
+      url = "github:Daru-san/lineage_device_samsung_bengal-common";
       flake = false;
     };
     kernel_bengal = {
