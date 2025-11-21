@@ -53,7 +53,6 @@
           source.dirs = {
             "device/samsung/a05s".src = device_a05s;
             "vendor/samsung/bengal".src = vendor_a05s;
-            "vendor/samsung/bengal-common".src = vendor_a05s;
             "device/samsung/bengal-common".src = lineage_bengal_common;
             "kernel/samsung/bengal".src = kernel_bengal;
           };
