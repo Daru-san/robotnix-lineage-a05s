@@ -220,15 +220,15 @@
     "vendor_a05s": {
       "flake": false,
       "locked": {
-        "lastModified": 1739786564,
-        "narHash": "sha256-BimA9/bYcSIWxu3bTe9rS+tjXmFOvi0l8wmSXcUqkcE=",
-        "owner": "galaxy-a05s",
+        "lastModified": 1763738158,
+        "narHash": "sha256-AzzB/ludZxUvVBErKxj2Oi5wL4QBvhFCK4P7JjM+5I4=",
+        "owner": "Daru-san",
         "repo": "android_vendor_samsung_bengal_f",
-        "rev": "84a0df45a234684e8d7ce258b5c140f88fa50228",
+        "rev": "b77315221ce69bc0ee2755f4ae70988b92793646",
         "type": "github"
       },
       "original": {
-        "owner": "galaxy-a05s",
+        "owner": "Daru-san",
         "repo": "android_vendor_samsung_bengal_f",
         "type": "github"
       }
