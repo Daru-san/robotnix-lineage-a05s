@@ -20,7 +20,7 @@
       flake = false;
     };
     vendor_a05s = {
-      url = "github:galaxy-a05s/android_vendor_samsung_bengal_f";
+      url = "github:Daru-san/android_vendor_samsung_bengal_f";
       flake = false;
     };
     hosts = {
