@@ -16,7 +16,7 @@
       flake = false;
     };
     kernel_bengal = {
-      url = "github:cd-Crypton/android_kernel_samsung_bengal-5.15";
+      url = "github:Daru-san/android_kernel_samsung_a05s";
       flake = false;
     };
     vendor_a05s = {
