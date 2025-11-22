@@ -95,11 +95,11 @@
     "hosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1763488188,
-        "narHash": "sha256-sJ6JT8GSmUUUAi8Ylhp6vE6OKmQxNfHye0FiJbZwoo4=",
+        "lastModified": 1763769614,
+        "narHash": "sha256-7sOoxpT65O3Mks9+xfISuRgx55E6eRdbsDpdMafTq98=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "c66c4aa05a95669943eb3b8f68ba3d359825c4b9",
+        "rev": "21ce4c0266670d4261053afecb0579ef3d7956ed",
         "type": "github"
       },
       "original": {
@@ -111,27 +111,27 @@
     "kernel_bengal": {
       "flake": false,
       "locked": {
-        "lastModified": 1721371214,
-        "narHash": "sha256-TMXzWFXFPVWx7j7vYHMeRvlKURxPGKCBiX5eJyxBupU=",
-        "owner": "cd-Crypton",
-        "repo": "android_kernel_samsung_bengal-5.15",
-        "rev": "84bb912e0c40bcc8050a0176c60308a4c89dd51a",
+        "lastModified": 1763804017,
+        "narHash": "sha256-sgFrntAHnRk5JcHjETkwjrrFU3pv5WXEvFv/7fOcQXY=",
+        "owner": "Daru-san",
+        "repo": "android_kernel_samsung_a05s",
+        "rev": "f97ae5d91e3d99ffef9c40951d04cd779a421455",
         "type": "github"
       },
       "original": {
-        "owner": "cd-Crypton",
-        "repo": "android_kernel_samsung_bengal-5.15",
+        "owner": "Daru-san",
+        "repo": "android_kernel_samsung_a05s",
         "type": "github"
       }
     },
     "lineage_bengal_common": {
       "flake": false,
       "locked": {
-        "lastModified": 1763739248,
-        "narHash": "sha256-pwprKmeh1EDSh/MzNwqE/cvu289yu1TAfm6lbvyWMo4=",
+        "lastModified": 1763800265,
+        "narHash": "sha256-Mv5ihbHWlfn5G66SeLGkUsQXS0T4Da5zL9YoAQCi2OY=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_bengal-common",
-        "rev": "6dbed93998663845c8bd69619df84adfcbd31ad8",
+        "rev": "d41bb7ce991cee67f885f1d0861f116f3fe9bd1f",
         "type": "github"
       },
       "original": {
@@ -220,11 +220,11 @@
     "vendor_a05s": {
       "flake": false,
       "locked": {
-        "lastModified": 1763738158,
-        "narHash": "sha256-AzzB/ludZxUvVBErKxj2Oi5wL4QBvhFCK4P7JjM+5I4=",
+        "lastModified": 1763734499,
+        "narHash": "sha256-bH0AwX18ko2Jq+z1oNh554ckx28RHHIKhXsghjsfnCM=",
         "owner": "Daru-san",
         "repo": "android_vendor_samsung_bengal_f",
-        "rev": "b77315221ce69bc0ee2755f4ae70988b92793646",
+        "rev": "b1badb05968d0a37bc21ae5b0818723e2615d9de",
         "type": "github"
       },
       "original": {
