@@ -7,6 +7,10 @@
 
   inputs = {
     robotnix.url = "github:nix-community/robotnix";
+    lineage_hardware_samsung = {
+      url = "github:LineageOS/android_hardware_samsung/lineage-22.2";
+      flake = false;
+    };
     device_a05s = {
       url = "github:galaxy-a05s/lineage_device_samsung_a05s";
       flake = false;
@@ -60,6 +64,7 @@
             "vendor/samsung/bengal".src = vendor_a05s;
             "device/samsung/bengal-common".src = lineage_bengal_common;
             "kernel/samsung/bengal".src = kernel_bengal;
+            "hardware/samsung".src = lineage_hardware_samsung;
           };
           apps = {
             bromite.enable = false;
