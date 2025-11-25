@@ -95,11 +95,11 @@
     "hosts": {
       "flake": false,
       "locked": {
-        "lastModified": 1763769614,
-        "narHash": "sha256-7sOoxpT65O3Mks9+xfISuRgx55E6eRdbsDpdMafTq98=",
+        "lastModified": 1764026853,
+        "narHash": "sha256-NMFu5BLTJmo2h8/IcRQClgy0HVbggxVZa64gAkttAzA=",
         "owner": "StevenBlack",
         "repo": "hosts",
-        "rev": "21ce4c0266670d4261053afecb0579ef3d7956ed",
+        "rev": "5300bf25b363583ceb7d73073652523aa3aadbbe",
         "type": "github"
       },
       "original": {
@@ -111,11 +111,11 @@
     "kernel_bengal": {
       "flake": false,
       "locked": {
-        "lastModified": 1763804017,
-        "narHash": "sha256-sgFrntAHnRk5JcHjETkwjrrFU3pv5WXEvFv/7fOcQXY=",
+        "lastModified": 1763820417,
+        "narHash": "sha256-5WvWHjljMW7fz22jcpevsJC63tZWI6hR+s8YiWtPLrg=",
         "owner": "Daru-san",
         "repo": "android_kernel_samsung_a05s",
-        "rev": "f97ae5d91e3d99ffef9c40951d04cd779a421455",
+        "rev": "5e5c95fedc79947c592818e2f461c860bd13c357",
         "type": "github"
       },
       "original": {
@@ -127,11 +127,11 @@
     "lineage_bengal_common": {
       "flake": false,
       "locked": {
-        "lastModified": 1763800265,
-        "narHash": "sha256-Mv5ihbHWlfn5G66SeLGkUsQXS0T4Da5zL9YoAQCi2OY=",
+        "lastModified": 1764067917,
+        "narHash": "sha256-j6XG2MvixaPlwxMzGUxT3w4PRvPah8N1oEWeTb2QVdE=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_bengal-common",
-        "rev": "d41bb7ce991cee67f885f1d0861f116f3fe9bd1f",
+        "rev": "465c67c0da49764d6e57967bd6ba62d2b4f558fe",
         "type": "github"
       },
       "original": {
@@ -179,11 +179,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1763170892,
-        "narHash": "sha256-Y4iY5buKRakptbI2kZXHxRFw18EmXaIuzs9N8a8YlE8=",
+        "lastModified": 1763899889,
+        "narHash": "sha256-X6PfWsnukTa4CQZ34u/Jw+Iz5NlptkooAx81wrHVE3M=",
         "owner": "nix-community",
         "repo": "robotnix",
-        "rev": "d8979cdf788cd21488f2d944dd6708bbbaf922ea",
+        "rev": "0b67d10e140555a319d0d91d3369a5e6c73dae58",
         "type": "github"
       },
       "original": {
