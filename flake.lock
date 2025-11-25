@@ -24,11 +24,11 @@
     "device_a05s": {
       "flake": false,
       "locked": {
-        "lastModified": 1764083206,
-        "narHash": "sha256-tUI4P+MIMZ0ptgRVynkQmRE+HXFpLAhQxMUvvFzbX9E=",
+        "lastModified": 1764102917,
+        "narHash": "sha256-TeyNity3yXF7cLdYMUbr9izRvxepHgfY4XA8XD2r7dc=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_a05s",
-        "rev": "b101a723279dca87de9126936c90ac4e8b9e4e76",
+        "rev": "ef272f4a49e010b6560858261543d721cdbedf45",
         "type": "github"
       },
       "original": {
@@ -111,11 +111,11 @@
     "kernel_bengal": {
       "flake": false,
       "locked": {
-        "lastModified": 1763820417,
-        "narHash": "sha256-5WvWHjljMW7fz22jcpevsJC63tZWI6hR+s8YiWtPLrg=",
+        "lastModified": 1764109898,
+        "narHash": "sha256-pKVEE7HAo8QSAjvH3OcI1iAJzzi69u+4LrlCZ6mm0/M=",
         "owner": "Daru-san",
         "repo": "android_kernel_samsung_a05s",
-        "rev": "5e5c95fedc79947c592818e2f461c860bd13c357",
+        "rev": "01e05e52b8af72e4bca7904b7e1abaf11156c666",
         "type": "github"
       },
       "original": {
@@ -127,11 +127,11 @@
     "lineage_bengal_common": {
       "flake": false,
       "locked": {
-        "lastModified": 1764085971,
-        "narHash": "sha256-vQ/gTY5JRG0bpBlF3kWrtYVpPlH8S5VtYhpeYl5NsAA=",
+        "lastModified": 1764111983,
+        "narHash": "sha256-Ya72rSfl1/nxmowNys7hZScnVHsCfGFEVRFyCtvoCvc=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_bengal-common",
-        "rev": "c24129a13741fa6efdd5664954bcb5a0307c2b35",
+        "rev": "213494280d38d6c12a4d9086d3b3bff10ecb1f57",
         "type": "github"
       },
       "original": {
