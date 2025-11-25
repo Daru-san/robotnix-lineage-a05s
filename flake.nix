@@ -12,7 +12,7 @@
       flake = false;
     };
     device_a05s = {
-      url = "github:galaxy-a05s/lineage_device_samsung_a05s";
+      url = "github:Daru-san/lineage_device_samsung_a05s";
       flake = false;
     };
     lineage_bengal_common = {
