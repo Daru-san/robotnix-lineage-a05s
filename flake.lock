@@ -4,7 +4,7 @@
       "inputs": {
         "devshell": "devshell",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs_2"
       },
       "locked": {
         "lastModified": 1750710155,
@@ -140,7 +140,40 @@
         "type": "github"
       }
     },
+    "lineage_hardware_samsung": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1760931331,
+        "narHash": "sha256-N4lrcFvfCBjtrfSrzCgLHtppsoSzCJYY7hGLUTp1Faw=",
+        "owner": "LineageOS",
+        "repo": "android_hardware_samsung",
+        "rev": "6ca71e6d1a5ef6460d0988a3e8a49f6b1d0acbc4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "LineageOS",
+        "ref": "lineage-22.2",
+        "repo": "android_hardware_samsung",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
+      "locked": {
+        "lastModified": 1763835633,
+        "narHash": "sha256-HzxeGVID5MChuCPESuC0dlQL1/scDKu+MmzoVBJxulM=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "050e09e091117c3d7328c7b2b7b577492c43c134",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
       "locked": {
         "lastModified": 1750506804,
         "narHash": "sha256-VLFNc4egNjovYVxDGyBYTrvVCgDYgENp5bVi9fPTDYc=",
@@ -156,7 +189,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
+    "nixpkgs_3": {
       "locked": {
         "lastModified": 1750622754,
         "narHash": "sha256-kMhs+YzV4vPGfuTpD3mwzibWUE6jotw5Al2wczI0Pv8=",
@@ -176,7 +209,7 @@
       "inputs": {
         "androidPkgs": "androidPkgs",
         "flake-compat": "flake-compat",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1763899889,
@@ -198,6 +231,8 @@
         "hosts": "hosts",
         "kernel_bengal": "kernel_bengal",
         "lineage_bengal_common": "lineage_bengal_common",
+        "lineage_hardware_samsung": "lineage_hardware_samsung",
+        "nixpkgs": "nixpkgs",
         "robotnix": "robotnix",
         "vendor_a05s": "vendor_a05s"
       }
