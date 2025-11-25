@@ -43,6 +43,7 @@
       kernel_bengal,
       lineage_bengal_common,
       hosts,
+      lineage_hardware_samsung,
     }:
     let
       host = hosts;
