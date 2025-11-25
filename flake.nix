@@ -43,14 +43,9 @@
       kernel_bengal,
       lineage_bengal_common,
       hosts,
-      nixpkgs,
-      lineage_hardware_samsung,
     }:
     let
       host = hosts;
-      pkgs = import nixpkgs {
-        system = "x86_64-linux";
-      };
     in
     {
       robotnixConfigurations."a05s" = robotnix.lib.robotnixSystem (
@@ -81,23 +76,6 @@
             chromium.availableByDefault = false;
             vanadium.enable = false;
             vanadium.availableByDefault = true;
-          };
-
-          kernel = {
-            enable = true;
-            clangVersion = "20";
-            src = kernel_bengal;
-            relpath = "kernel/samsung/bengal";
-            patches = [
-              (pkgs.fetchpatch {
-                url = "https://github.com/cdpkp/android_kernel_tree_samsung_a05s/commit/72c67f9b85b492a8ba500ce2a03eff1bd78f6b9e.patch";
-                sha256 = "sha256-DXaih7kqe73nl6fT1dyMxT5IlSosYQTaPc/qENXn248=";
-              })
-              (pkgs.fetchpatch {
-                url = "https://github.com/cdpkp/android_kernel_tree_samsung_a05s/commit/9bd23082815e1c7b455d7384563a454023e0c202.patch";
-                sha256 = "sha256-/IrhIfDniqRZIvoAYmaCnaG9iWnWymKK4X0bmTHq0Ec";
-              })
-            ];
           };
 
           microg.enable = true;
