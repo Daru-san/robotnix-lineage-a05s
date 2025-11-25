@@ -6,7 +6,6 @@
   ];
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     robotnix.url = "github:nix-community/robotnix";
     lineage_hardware_samsung = {
       url = "github:LineageOS/android_hardware_samsung/lineage-22.2";
