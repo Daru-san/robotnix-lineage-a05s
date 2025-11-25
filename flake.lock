@@ -220,11 +220,11 @@
     "vendor_a05s": {
       "flake": false,
       "locked": {
-        "lastModified": 1763734499,
-        "narHash": "sha256-bH0AwX18ko2Jq+z1oNh554ckx28RHHIKhXsghjsfnCM=",
+        "lastModified": 1764069212,
+        "narHash": "sha256-AzzB/ludZxUvVBErKxj2Oi5wL4QBvhFCK4P7JjM+5I4=",
         "owner": "Daru-san",
         "repo": "android_vendor_samsung_bengal_f",
-        "rev": "b1badb05968d0a37bc21ae5b0818723e2615d9de",
+        "rev": "ad35c3ac991731479ee1db9943bb5bc5fcf5c99f",
         "type": "github"
       },
       "original": {
