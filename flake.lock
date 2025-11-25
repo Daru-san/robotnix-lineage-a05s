@@ -127,11 +127,11 @@
     "lineage_bengal_common": {
       "flake": false,
       "locked": {
-        "lastModified": 1764067917,
-        "narHash": "sha256-j6XG2MvixaPlwxMzGUxT3w4PRvPah8N1oEWeTb2QVdE=",
+        "lastModified": 1764070602,
+        "narHash": "sha256-GDRiBAL8ouO3My2gTTasG0XPWYkXISj+ZeogRlX8OUA=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_bengal-common",
-        "rev": "465c67c0da49764d6e57967bd6ba62d2b4f558fe",
+        "rev": "03153a9604e05830cceac09ba4bdd8277eabd958",
         "type": "github"
       },
       "original": {
