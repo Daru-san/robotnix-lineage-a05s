@@ -24,11 +24,11 @@
     "device_a05s": {
       "flake": false,
       "locked": {
-        "lastModified": 1764075380,
-        "narHash": "sha256-4G4B6dFzBO++VUcPezKWR0jG1sJ84k34YKlZMHeZibA=",
+        "lastModified": 1764076360,
+        "narHash": "sha256-+cIxqNufkF9yt9OgqP32rzKoFMd/GMwTAPbbdNbYEa4=",
         "owner": "Daru-san",
         "repo": "lineage_device_samsung_a05s",
-        "rev": "de9d78379eb046dbd5656e7cd8f8541ef7821621",
+        "rev": "79a938647d0e704b19e0b3f1c20e07bd8b9a3b44",
         "type": "github"
       },
       "original": {
